@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<hospital name="广州妇女儿童医疗中心" alias = "GE">
+		<organCode>144010000128</organCode>
+		<addr>192.168.10.101:8443</addr>
+		<!--<addr>120.26.192.249:8443</addr>-->
+	</hospital>
+	<hospital name="浙江大学医学院附属第一医院" alias = "ZY">
+		<organCode>133000000696</organCode>
+		<addr>122.13.0.112:7801</addr>
+	</hospital>
+</configuration>
