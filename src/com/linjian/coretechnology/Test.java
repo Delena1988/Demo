@@ -2,7 +2,12 @@ package com.linjian.coretechnology;
 
 import java.io.IOException;
 import java.nio.file.Paths;
+import java.util.Calendar;
+import java.util.GregorianCalendar;
+import java.util.Locale;
 import java.util.Scanner;
+
+import com.sun.xml.internal.bind.v2.schemagen.xmlschema.LocalAttribute;
 
 public class Test {
 	public static void main(String[] args) throws IOException {
@@ -31,5 +36,13 @@ public class Test {
 					break out;
 			}
 		}
+
+		System.out.println();
+		Locale.setDefault(Locale.ITALY);
+		System.out.println(Calendar.DAY_OF_WEEK);
+		
+		GregorianCalendar d = new GregorianCalendar();
+		int dayOfMonth = d.get(Calendar.DAY_OF_MONTH);
+		System.out.println(dayOfMonth);
 	}
 }
