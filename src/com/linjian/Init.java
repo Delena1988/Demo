@@ -5,6 +5,9 @@ public class Init {
 		A a = new A();
 		System.out.println("i:"+a.i);
 		System.out.println("j:"+a.j);
+		
+//		StringBuffer sb = new StringBuffer("");
+//		System.out.println(sb.length());
 	}
 }
 
